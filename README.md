@@ -64,7 +64,7 @@ Content-Type: application/json
 }
 ```
 
-- Mình xác định được domain qua thực nghiệm: truy cập https://gwdu.ptit.edu.vn/slink/sv-su-kien/qr trực tiếp không kèm token → `401 Unauthorized`.
+- Mình xác định được domain bằng cách truy cập https://gwdu.ptit.edu.vn/slink/sv-su-kien/qr trực tiếp không kèm token → `401 Unauthorized`.
 <img width="443" height="210" alt="image" src="https://github.com/user-attachments/assets/71a4e7c4-6d88-4bc3-9af7-2c27215e5842" />
 
 
