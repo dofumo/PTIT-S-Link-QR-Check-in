@@ -13,7 +13,6 @@
 - [3. API endpoint](#3-api-endpoint)
 - [4. Kiến trúc Authentication](#4-kiến-trúc-authentication)
 - [5. Sơ đồ tổng thể](#5-sơ-đồ-tổng-thể)
-- [Giới hạn phạm vi](#giới-hạn-phạm-vi)
 
 ---
 
