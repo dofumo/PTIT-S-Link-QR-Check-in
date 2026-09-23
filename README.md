@@ -29,8 +29,8 @@ PTIT|SU_KIEN|CHECK_IN|{"maDiemDanh":"153591","idSuKien":"6aa161869d2ed9b3aa03bf5
 
 | Phần | VD | Ý nghĩa |
 |---|---|---|
-| `module` | `SU_KIEN` | Nhóm chức năng: Sự kiện |
-| `action` | `CHECK_IN` | Hành động điểm danh |
+| `module` | `SU_KIEN` | Sự kiện |
+| `action` | `CHECK_IN` | Điểm danh |
 | `data` | JSON string | `maDiemDanh`, `idSuKien` |
 
 Được parse bởi hàm `parseModularQR()` trong app.
