@@ -138,10 +138,10 @@ API trả 401 / TokenInvalid
 ## 5. Sơ đồ tổng thể
 
 ```text
-┌─────────────┐   authorize (PKCE)      ┌──────────────┐
+┌─────────────┐   authorize (PKCE)      
 │ LoginScreen │ ──────────────────────► │   Keycloak   │
 └─────────────┘ ◄────────────────────── │  (SSO_URL)   │
-      │         accessToken/refreshToken└──────────────┘
+      │         accessToken/refreshToken
       ▼
 ┌────────────────────────────┐
 │ AuthStore (in-memory)      │
@@ -149,10 +149,10 @@ API trả 401 / TokenInvalid
 └────────────────────────────┘
       │  Authorization: Bearer <accessToken>
       ▼
-┌────────────────────────────┐   401 TokenInvalid   ┌──────────────┐
+┌────────────────────────────┐   401 TokenInvalid   
 │ apiService.api()           │ ────────────────────►│  refresh()   │
 │ (mọi API call của app)     │ ◄────────────────────│  → Keycloak  │
-└────────────────────────────┘   token mới → retry  └──────────────┘
+└────────────────────────────┘   token mới → retry  
       │
       ▼ (ví dụ: check-in QR)
 POST /slink/sv-su-kien/qr  { ma, loaiQR }
