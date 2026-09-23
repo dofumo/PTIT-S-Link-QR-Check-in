@@ -167,4 +167,3 @@ Tài liệu không bao gồm:
 
 ---
 
-*Repo này chỉ phục vụ mục đích tìm hiểu kiến trúc kỹ thuật (reverse engineering cho mục đích học tập). Việc sử dụng thông tin trong tài liệu để can thiệp trái phép vào hệ thống điểm danh hoặc dữ liệu của PTIT là trách nhiệm của người sử dụng và không được khuyến khích.*
