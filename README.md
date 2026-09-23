@@ -159,7 +159,7 @@ API trả 401 / TokenInvalid
 POST /slink/sv-su-kien/qr  { ma, loaiQR }
 ```
 
-## Giới hạn phạm vi
+## Ghi chú
 
 Tài liệu không bao gồm:
 - Cách server sinh `maDiemDanh` hay chu kỳ/thuật toán sinh mã QR.
